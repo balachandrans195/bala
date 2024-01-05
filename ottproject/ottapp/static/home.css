@@ -1,0 +1,25 @@
+/* ottapp/static/style.css */
+{% load static %}
+body {
+    background-image: url('{% static 'giphy.gif' %}');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
